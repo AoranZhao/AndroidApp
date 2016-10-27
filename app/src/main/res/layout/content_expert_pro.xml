@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nowansr.ExpertsActivity"
+    tools:showIn="@layout/activity_expert_pro">
+
+    <ScrollView
+        android:id="@+id/ep_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="16dp"
+                >
+                <FrameLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginRight="10dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/ep_expert_profile_image"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@mipmap/ic_launcher"
+                        />
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/ep_expert_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Expert Name"
+                        android:gravity="center_vertical"
+                        style="@style/TextAppearance.AppCompat.Large" />
+                    <TextView
+                        android:id="@+id/ep_expert_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New York, USA"
+                        style="@style/TextAppearance.AppCompat.Small" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+
+            <LinearLayout
+                android:id="@+id/ep_expert_skills_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+                <TextView
+                    style="@style/Base.TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="Skills" />
+                <LinearLayout
+                    android:id="@+id/ep_expert_skills_horizontal_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+
+            <!-- Languages -->
+            <LinearLayout
+                android:id="@+id/ep_expert_language_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Languages"
+                    android:layout_marginBottom="2dp"
+                    style="@style/Base.TextAppearance.AppCompat.Title" />
+            </LinearLayout>
+            <View
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <!-- Summary -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:textAlignment="inherit"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Summary"
+                    android:layout_marginBottom="2dp"
+                    style="@style/Base.TextAppearance.AppCompat.Title" />
+                <TextView
+                    android:id="@+id/ep_expert_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@android:color/black"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    style="@style/Base.TextAppearance.AppCompat.Body1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/ep_call_expert_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@color/accent"
+        >
+
+        <TextView
+            android:id="@+id/ep_expert_call_me_now"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CALL ME NOW"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Title" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/ep_progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:visibility="gone">
+    </ProgressBar>
+
+
+</LinearLayout>

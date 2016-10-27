@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Now Answer</string>
+    <string name="sync_account_type">nowansr.com</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="select_Category">Select Category</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+
+    <string name="select_cat">Select Topic</string>
+    <string name="please_select">Search Type</string>
+
+
+    <string-array name="topics">
+        <item>IT</item>
+        <item>Art</item>
+        <item>Business</item>
+        <item>Geography</item>
+        <item>History</item>
+        <item>Languages > Hindi</item>
+        <item>Languages > English</item>
+        <item>Languages > German</item>
+        <item>Languages > Korean</item>
+        <item>Languages > Mandarin</item>
+        <item>Languages > Spanish</item>
+        <item>Languages > Farsi</item>
+        <item>Music</item>
+        <item>Programming</item>
+        <item>Science</item>
+        <item>Math</item>
+        <item>Law</item>
+    </string-array>
+
+    <string-array name="Search_type">
+        <item>Skill name</item>
+        <item>User name</item>
+        <item>Minimum Price</item>
+        <item>Maximum Price</item>
+        <item>Minimum Ratings</item>
+        <item>Maximum Ratings</item>
+    </string-array>
+    <string name="title_activity_view_questions">ViewQuestionsActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_user_questions">UserQuestionsActivity</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="title_activity_respond">RespondActivity</string>
+    <string name="title_activity_refresh_auth">RefreshAuth</string>
+    <string name="title_activity_experts">ExpertsActivity</string>
+    <string name="title_activity_expert_pro">ExpertProActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+</resources>

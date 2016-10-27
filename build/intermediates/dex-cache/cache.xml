@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="db477174eacaa2acd4bac13fe58a37e3577933ee">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_63c43931099bd14bcf55e842b09adf16dd9d1446/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_0b858de374a8811066691c36afa0fa5f9af127b5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-1.9.0_dcac8f465b6c2db5e244c128a9901030afbf65bc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_13dd21715c28f8e915030a825a3b8ef29192f0bc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_a76f47c5a6f28cc2a6bf45070cb7320bbec658f0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-22.2.1_2863a1d98868b0afc9432addc266f713228cfbd3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/com.opentok.android/opentok-android-sdk/2.8.0-REL-1713/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="7839b5e8362ffde2b68a68aadcd51b17655e478a">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.opentok.android-opentok-android-sdk-2.8.0-REL-1713_6ebe526a0ddf2d347c61126759020e578117c15a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-22.2.1_8ea590671affd5e17ca45acab90aa1e2e9269998/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_8090c2b21ce9243932629bb7d1fd7a437f37d302/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.1.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="2b971772f0be0ab4471ee89069a70ffd6ad24740">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.makeramen-roundedimageview-2.1.2_3e5a2173482460f118d8fe0c6148113ea00b7b61/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_b2f0dea8637df438ed036d0ce0ed837bbc315b44/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_e155c5e4065108d0bc794054c6127e4b7c1719a8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="be2828483bb9996cf196c7601a1e9e80faf413a6">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bc063f0a05ce7a00cb28995089948d81f42a82e9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/Desktop/android-app/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-22.2.1_91ea581bcf42effc61be174f4752c3cb8c2efa39/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Aaron/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/Aaron/Desktop/android-app/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.4.0_19d9f8c47d2c44f3a1e8ef527da3b80c557b7a5a/classes.dex" />
+    </item>
+
+</items>

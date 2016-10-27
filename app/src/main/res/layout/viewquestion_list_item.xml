@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Question :-"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/et_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@null"
+        android:hint="Your question"
+        android:padding="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight=".35"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="Language :-"-->
+            <!--android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"-->
+            <!--android:textColor="@android:color/black"/>-->
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".65"
+            android:padding="10dp"
+            android:text="Hindi"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".35"
+            android:padding="10dp"
+            android:text="Posted :- "
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight=".65"
+            android:padding="10dp"
+            android:text="Mar 28, 2016 3:22:59 AM"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btsee_response"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".4"
+            android:background="#81b881"
+            android:padding="10dp"
+            android:text="See Responses"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/bt_repost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".4"
+            android:background="#2b679b"
+            android:padding="10dp"
+            android:text="Repost"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_marginTop="10dp"
+    android:background="#000000"
+    android:alpha=".2"/>
+</LinearLayout>

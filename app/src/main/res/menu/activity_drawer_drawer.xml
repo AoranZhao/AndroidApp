@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/building"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/avatar83"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/nav_editprofile"
+            android:icon="@drawable/clipboard105"
+            android:title="Edit My Profile" />
+        <item
+            android:id="@+id/nav_experts"
+            android:icon="@drawable/scholar"
+            android:title="View Experts" />
+        <item
+            android:id="@+id/nav_myquestion"
+            android:icon="@drawable/school"
+            android:title="My Questions" />
+        <item
+            android:id="@+id/nav_userquestion"
+            android:icon="@drawable/user_questions"
+            android:title="User Questions" />
+        <item
+            android:id="@+id/nav_changepass"
+            android:icon="@drawable/security"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Video"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout13"
+            android:title="Logout" />
+    </group>
+
+</menu>
